@@ -15,7 +15,8 @@ s3://lin-2023-orion-crc/data
 Download command using docker
 
 ```
-docker run --rm -it -v /your_local_path:/orion_data  public.ecr.aws/aws-cli/aws-cli s3 cp --no-sign-request s3://lin-2023-orion-crc/data /orion_data --recursive```
+docker run --rm -it -v /your_local_path:/orion_data  public.ecr.aws/aws-cli/aws-cli s3 cp --no-sign-request s3://lin-2023-orion-crc/data /orion_data --recursive
+```
 
 
 
