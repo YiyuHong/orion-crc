@@ -12,6 +12,12 @@ Services (AWS) S3.
 s3://lin-2023-orion-crc/data
 ```
 
+Download command using docker
+```
+docker run --rm -it public.ecr.aws/aws-cli/aws-cli s3 cp --no-sign-request s3://lin-2023-crc/data your_path --recursive
+```
+
+
 To browse and download the data use either a graphical file transfer application
 that supports S3 such as [CyberDuck](https://cyberduck.io), or the [AWS CLI
 tools](https://aws.amazon.com/cli/). A graphical tool may be more convenient but
